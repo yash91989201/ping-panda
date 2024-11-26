@@ -1,9 +1,8 @@
 import { cn } from "@/utils"
-import { ReactNode } from "react"
+import { PropsWithChildren } from "react"
 
-interface MaxWidthWrapperProps {
+interface MaxWidthWrapperProps extends PropsWithChildren {
   className?: string
-  children: ReactNode
 }
 
 export const MaxWidthWrapper = ({
