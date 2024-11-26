@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
-import { Providers } from "./components/providers"
+import { Providers } from "@/components/providers"
 import { EB_Garamond } from "next/font/google"
 import { cn } from "@/utils"
 
@@ -13,8 +13,8 @@ const eb_garamond = EB_Garamond({
 })
 
 export const metadata: Metadata = {
-  title: "jStack App",
-  description: "Created using jStack",
+  title: "Ping panda",
+  description: "View events realtime",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 }
 
